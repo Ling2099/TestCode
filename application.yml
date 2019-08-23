@@ -78,7 +78,7 @@ spring:
         login-username: admin
         login-password: 123456
       WebStatFilter:
-        exclusions: *.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*
+        exclusions: '*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*'
 #=======================================================================================================================
 #相关mybatis配置
 mybatis:
@@ -193,7 +193,7 @@ spring:
         login-username: admin
         login-password: 123456
       WebStatFilter:
-        exclusions: *.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*
+        exclusions: '*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*'
 #=======================================================================================================================
 #相关mybatis配置
 mybatis:
