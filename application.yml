@@ -78,7 +78,7 @@ spring:
         login-username: druid
         login-password: druid123123
       WebStatFilter:
-        exclusions: *.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/* 
+        exclusions: /druid/* 
 #=======================================================================================================================
 #相关mybatis配置
 mybatis:
