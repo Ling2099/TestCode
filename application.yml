@@ -75,8 +75,8 @@ spring:
       stat-view-servlet:
         allow: 127.0.0.1
         url-pattern: /druid/*
-        login-username: druid
-        login-password: druid123123
+        login-username: admin
+        login-password: 123456
       WebStatFilter:
         exclusions: /druid/* 
 #=======================================================================================================================
@@ -184,6 +184,16 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 5
+    druid:
+      web-stat-filter:
+        enabled: true
+      stat-view-servlet:
+        allow: 127.0.0.1
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: 123456
+      WebStatFilter:
+        exclusions: /druid/* 
 #=======================================================================================================================
 #相关mybatis配置
 mybatis:
